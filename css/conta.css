@@ -1,0 +1,40 @@
+*{
+    margin: 10;
+    padding: 10;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.expe h2{
+    margin-top: 170px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+
+}
+
+button{
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 300px;
+   height: 33px;
+   border-radius: 5px;
+   background-color: transparent;
+   border-color: rgb(104, 104, 60);
+   cursor: pointer;
+   
+}
+a button{
+    color: black;
+}
+
+ .expe button:hover{
+    background-color: hwb(0 100% 0%);
+}
