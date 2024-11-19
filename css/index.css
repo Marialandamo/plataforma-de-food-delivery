@@ -184,13 +184,16 @@ ul li a:hover{
 
 }
  .card .link{
-    
     width: 150px;
     height: 150px;
     margin-left: 100px;
     text-decoration: none;
-   
+    transition: 1s;
+    z-index: 3;
     
+}
+.card .link:hover{
+    transform: scale(1.2);
 }
 .card h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
